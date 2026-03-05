@@ -36,8 +36,9 @@ multimodal-search-engine/
 ├── app.py                   # Streamlit Frontend
 ├── requirements.txt         # Project dependencies
 └── README.md                # Project documentation
-## ⚙️ Installation & Usage
 ```
+## ⚙️ Installation & Usage
+
 ### 1. Clone the Repo & Setup venv
 ```powershell
 git clone [https://github.com/Tharunr0/multimodal-search.git](https://github.com/Tharunr0/multimodal-search.git)
