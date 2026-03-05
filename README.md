@@ -37,7 +37,7 @@ multimodal-search-engine/
 ├── requirements.txt         # Project dependencies
 └── README.md                # Project documentation
 ## ⚙️ Installation & Usage
-
+```
 ### 1. Clone the Repo & Setup venv
 ```powershell
 git clone [https://github.com/Tharunr0/multimodal-search.git](https://github.com/Tharunr0/multimodal-search.git)
@@ -47,7 +47,7 @@ python -m venv venv
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 ## ⚙️ Dataset Setup
-
+```
 To replicate this project, follow the data acquisition steps below:
 
 1. **Images:** Download the **2017 Val images [5K/1GB]** from the [COCO dataset website](https://cocodataset.org/#download). Extract the zip and place the images in `data/val2017/`.
@@ -64,7 +64,7 @@ Once the environment is configured and data is in place, launch the interactive 
 ```powershell
 streamlit run app.py
 ---
-
+```
 ## 🧠 Engineering Highlights
 
 This project demonstrates a rigorous approach to building production-grade ML systems by addressing key challenges in scalability, accuracy, and infrastructure:
