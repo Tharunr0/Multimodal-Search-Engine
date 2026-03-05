@@ -1,0 +1,7 @@
+torch
+clip-by-openai
+pillow
+faiss_gpu
+numpy
+streamlit
+tqdm
